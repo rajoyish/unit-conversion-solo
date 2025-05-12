@@ -226,6 +226,13 @@ body {
   }
 }
 
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: #e0e0e0;
+  padding: 1rem;
+}
+
 @media only screen and (min-width: 768px) {
   .unit--conversion-wrapper {
     margin-top: 2rem;
