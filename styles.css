@@ -166,7 +166,8 @@ body {
   margin-top: 1rem;
   padding: 1rem;
   display: grid;
-  grid-template-columns: 1fr;
+/*   Responsive without media queries */
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); 
   gap: 2rem;
 }
 
@@ -239,10 +240,10 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .unit--conversion-wrapper {
+/*   .unit--conversion-wrapper {
     margin-top: 2rem;
     grid-template-columns: repeat(2, 1fr);
-  }
+  } */
 
   .conversion-wrapper--item {
     padding: 2rem;
@@ -250,9 +251,9 @@ footer {
 }
 
 @media only screen and (min-width: 1200px) {
-  .unit--conversion-wrapper {
+/*   .unit--conversion-wrapper {
     grid-template-columns: repeat(3, 1fr);
-  }
+  } */
 
   .conversion-wrapper--item {
     padding: 3rem;
